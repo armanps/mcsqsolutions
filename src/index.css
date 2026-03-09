@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @keyframes flow-1 {
+
+    0%,
+    100% {
+      transform: translate(0, 0) scale(1) rotate(0deg);
+    }
+
+    25% {
+      transform: translate(3%, -2%) scale(1.05) rotate(1deg);
+    }
+
+    50% {
+      transform: translate(-2%, 3%) scale(1.1) rotate(-1deg);
+    }
+
+    75% {
+      transform: translate(2%, -3%) scale(1.05) rotate(0.5deg);
+    }
+  }
+
+  @keyframes flow-2 {
+
+    0%,
+    100% {
+      transform: translate(0, 0) scale(1.1) rotate(0deg);
+    }
+
+    33% {
+      transform: translate(-4%, 3%) scale(1.15) rotate(-2deg);
+    }
+
+    66% {
+      transform: translate(4%, -4%) scale(1.08) rotate(2deg);
+    }
+  }
+
+  @keyframes flow-3 {
+
+    0%,
+    100% {
+      transform: translate(0, 0) scale(1.05) rotate(0deg);
+    }
+
+    20% {
+      transform: translate(2%, 4%) scale(1.12) rotate(1.5deg);
+    }
+
+    40% {
+      transform: translate(-3%, -2%) scale(1.08) rotate(-1.5deg);
+    }
+
+    60% {
+      transform: translate(4%, 2%) scale(1.1) rotate(1deg);
+    }
+
+    80% {
+      transform: translate(-2%, -3%) scale(1.06) rotate(-0.5deg);
+    }
+  }
+
+  /* .animate-flow-1 {
+    animation: flow-1 30s ease-in-out infinite;
+  }
+
+  .animate-flow-2 {
+    animation: flow-2 35s ease-in-out infinite;
+  }
+
+  .animate-flow-3 {
+    animation: flow-3 40s ease-in-out infinite;
+  } */
+
+  .animate-flow-1 {
+    animation: flow-1 60s ease-in-out infinite;
+  }
+
+  .animate-flow-2 {
+    animation: flow-2 75s ease-in-out infinite;
+  }
+
+  .animate-flow-3 {
+    animation: flow-3 90s ease-in-out infinite;
+  }
+}
+
+/* src/index.css
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
+} */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  @apply bg-slate-900;
+  /* Add this Tailwind class */
+  margin: 0;
+}
