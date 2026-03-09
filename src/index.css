@@ -63,18 +63,6 @@
     }
   }
 
-  /* .animate-flow-1 {
-    animation: flow-1 30s ease-in-out infinite;
-  }
-
-  .animate-flow-2 {
-    animation: flow-2 35s ease-in-out infinite;
-  }
-
-  .animate-flow-3 {
-    animation: flow-3 40s ease-in-out infinite;
-  } */
-
   .animate-flow-1 {
     animation: flow-1 60s ease-in-out infinite;
   }
@@ -88,18 +76,9 @@
   }
 }
 
-/* src/index.css
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
-} */
-
 body {
   font-family: 'Montserrat', sans-serif;
-  @apply bg-slate-900;
+  @apply bg-brand;
   /* Add this Tailwind class */
   margin: 0;
 }
