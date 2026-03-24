@@ -36,7 +36,7 @@ export default function Navbar() {
 
             {/* Desktop Nav */}
             <div className="hidden items-center gap-10 text-[16px] font-medium text-slate-100 md:flex">
-                <a href="#">Home</a>
+                <a href="/">Home</a>
 
                 <div className="relative group">
                     <button className="flex items-center gap-1">
